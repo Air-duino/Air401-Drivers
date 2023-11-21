@@ -31,7 +31,7 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "air401xx_hal_def.h"
 
-/** @addtogroup PY32F1xx_HAL_Driver
+/** @addtogroup AIR401xx_HAL_Driver
   * @{
   */
 

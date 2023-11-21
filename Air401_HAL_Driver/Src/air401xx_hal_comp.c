@@ -41,7 +41,7 @@
 ================================================================================
   [..]
       This driver provides functions to configure and program the comparator instances
-      of PY32F0xx devices.
+      of Air401xx devices.
 
       To use the comparator, perform the following steps:
 
@@ -62,7 +62,7 @@
 
       -@@- HAL_COMP_Init() calls internally __HAL_RCC_SYSCFG_CLK_ENABLE()
           to enable internal control clock of the comparators.
-          However, this is a legacy strategy. In future PY32 families,
+          However, this is a legacy strategy. In future AIR401 families,
           COMP clock enable must be implemented by user in "HAL_COMP_MspInit()".
           Therefore, for compatibility anticipation, it is recommended to
           implement __HAL_RCC_SYSCFG_CLK_ENABLE() in "HAL_COMP_MspInit()".

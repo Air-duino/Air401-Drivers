@@ -39,7 +39,7 @@
         __HAL_DBGMCU_FREEZE_IWDG() and __HAL_DBGMCU_UNFREEZE_IWDG() macros
 
     [..] Min-max timeout value @32KHz (LSI): ~125us / ~32.7s
-         The IWDG timeout may vary due to LSI frequency dispersion. PY32F0xx
+         The IWDG timeout may vary due to LSI frequency dispersion. Air401xx
          devices provide the capability to measure the LSI frequency (LSI clock
          connected internally to TIM5 CH4 input capture). The measured value
          can be used to have an IWDG timeout with an acceptable accuracy.

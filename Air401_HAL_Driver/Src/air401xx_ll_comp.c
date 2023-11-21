@@ -33,7 +33,7 @@
 #define assert_param(expr) ((void)0U)
 #endif /* USE_FULL_ASSERT */
 
-/** @addtogroup PY32002B_LL_Driver
+/** @addtogroup Air401_LL_Driver
   * @{
   */
 

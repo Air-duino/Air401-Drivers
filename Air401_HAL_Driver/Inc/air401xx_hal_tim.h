@@ -2078,6 +2078,6 @@ void TIM_ResetCallback(TIM_HandleTypeDef *htim);
 }
 #endif
 
-#endif /* PY32f002B_HAL_TIM_H */
+#endif /* AIR401_HAL_TIM_H */
 
 /************************ (C) COPYRIGHT AirM2M *****END OF FILE****/
