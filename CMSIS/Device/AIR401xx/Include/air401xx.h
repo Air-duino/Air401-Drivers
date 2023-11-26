@@ -174,12 +174,11 @@ typedef enum
   *        be based on direct access to peripherals registers
   */
 #if !defined  (USE_HAL_DRIVER)
-/*#define USE_HAL_DRIVER */
+// #define USE_HAL_DRIVER 
 #endif /* USE_HAL_DRIVER */
 
 #if defined (USE_HAL_DRIVER)
 #include "air401xx_hal.h"
-#endif /* Device_Included */
 #endif /* USE_HAL_DRIVER */
 
 #endif /* __AIR401xx_H */

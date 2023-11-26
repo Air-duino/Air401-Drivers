@@ -2525,11 +2525,14 @@ typedef struct
 #define RCC_BDCR_LSEBYP_Msk              (0x1UL << RCC_BDCR_LSEBYP_Pos)         /*!< 0x00000004 */
 #define RCC_BDCR_LSEBYP                  RCC_BDCR_LSEBYP_Msk
 #define RCC_BDCR_LSECSSON_Pos            (5U)
-#define RCC_BDCR_LSECSSON_Msk            (0x1UL << RCC_BDCR_LSECSSON_Pos)       /*!< 0x00000020 */
-#define RCC_BDCR_LSECSSON                RCC_BDCR_LSECSSON_Msk
+#define RCC_BDCR_LSECSSON_Msk            (0x1UL << RCC_BDCR_LSECSSON_Pos)         /*!< 0x00000020 */
+#define RCC_BDCR_LSECSSON                 RCC_BDCR_LSECSSON_Msk
 #define RCC_BDCR_LSECSSD_Pos             (6U)
-#define RCC_BDCR_LSECSSD_Msk             (0x1UL << RCC_BDCR_LSECSSD_Pos)        /*!< 0x00000040 */
-#define RCC_BDCR_LSECSSD                 RCC_BDCR_LSECSSD_Msk
+#define RCC_BDCR_LSECSSD_Msk             (0x1UL << RCC_BDCR_LSECSSD_Pos)         /*!< 0x00000040 */
+#define RCC_BDCR_LSECSSD                  RCC_BDCR_LSECSSD_Msk
+#define RCC_BDCR_BDRST_Pos               (16U)
+#define RCC_BDCR_BDRST_Msk               (0x1UL << RCC_BDCR_BDRST_Pos)          /*!< 0x00010000 */
+#define RCC_BDCR_BDRST                   RCC_BDCR_BDRST_Msk
 #define RCC_BDCR_LSCOEN_Pos              (24U)
 #define RCC_BDCR_LSCOEN_Msk              (0x1UL << RCC_BDCR_LSCOEN_Pos)         /*!< 0x01000000 */
 #define RCC_BDCR_LSCOEN                  RCC_BDCR_LSCOEN_Msk
