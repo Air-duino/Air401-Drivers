@@ -883,6 +883,23 @@ typedef struct
   * @}
   */
 
+/** @defgroup RCC_Backup_Domain_Reset RCC Backup Domain Reset
+  * @{
+  */
+
+/** @brief  Macros to force or release the Backup domain reset.
+  * @note   This function resets the RTC peripheral (including the backup registers)
+  *         and the RTC clock source selection in RCC_BDCR register.
+  * @retval None
+  */
+#define __HAL_RCC_BACKUPRESET_FORCE()   SET_BIT(RCC->BDCR, RCC_BDCR_BDRST)
+
+#define __HAL_RCC_BACKUPRESET_RELEASE() CLEAR_BIT(RCC->BDCR, RCC_BDCR_BDRST)
+
+/**
+  * @}
+  */
+
 /** @defgroup RCC_Clock_Configuration RCC Clock Configuration
   * @{
   */
