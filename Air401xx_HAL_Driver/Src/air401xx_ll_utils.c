@@ -163,7 +163,7 @@ ErrorStatus LL_SetFlashLatency(uint32_t HCLKFrequency)
 {
   uint32_t timeout;
   uint32_t getlatency;
-  uint32_t latency;
+  uint32_t latency = LL_FLASH_LATENCY_0;
   ErrorStatus status;
 
   /* Frequency cannot be equal to 0 or greater than max clock */
